@@ -11,9 +11,9 @@
 class_name: WebGuy
 modules:
     enabled:
-        - Selenium2
+        - PhpBrowser
         - WebHelper
+	- Db
     config:
-        Selenium2:
+        PhpBrowser:
            url: 'http://localhost/ord-manager/'
-           browser: firefox
