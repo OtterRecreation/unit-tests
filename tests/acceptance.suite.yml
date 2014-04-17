@@ -11,9 +11,8 @@
 class_name: WebGuy
 modules:
     enabled:
-        - PhpBrowser
-        - WebHelper
-	- Db
+         - PhpBrowser
+         - WebHelper
     config:
         PhpBrowser:
-           url: 'http://localhost/ord-manager/'
+             url: 'http://localhost/ord-manager/'
